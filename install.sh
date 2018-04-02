@@ -1,5 +1,8 @@
 #!/bin/sh
 #
+# Written by Rich Felker, originally as part of musl libc.
+# Multi-licensed under MIT, 0BSD, and CC0.
+#
 # This is an actually-safe install command which installs the new
 # file atomically in the new location, rather than overwriting
 # existing files.
